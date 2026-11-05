@@ -251,5 +251,594 @@
       </nav>
       <div class="header-actions">
         <a href="tel:+9779804395917" class="header-phone">+977 9804395917</a>
-        <button class="icon-btn" id="search-button" type="button" aria-label="Open product search">
-          <svg width="18" height="18" viewBox="0 0
+                <button class="icon-btn" id="search-button" type="button" aria-label="Open product search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+        </button>
+        <button class="icon-btn cart-toggle" id="cart-button" type="button" aria-label="Open shopping cart">
+          🛒<span class="cart-count" id="cart-count">0</span>
+        </button>
+        <button class="icon-btn mobile-menu-toggle" id="mobile-menu-button" type="button" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#" data-view="home">Home</a>
+      <a href="#" data-view="shop">Shop</a>
+      <a href="#" data-view="categories">Categories</a>
+      <a href="#" data-view="about">About</a>
+      <a href="#" data-view="contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero view active" id="home-view">
+      <div class="container hero-inner">
+        <span class="hero-badge">📍 Trimurti Chowk, Biratnagar, Nepal</span>
+        <h1>Your Everyday Essentials, All in One Place.</h1>
+        <p>Discover everyday grocery essentials at Anugraha General Store, Trimurti Chowk, Biratnagar.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary" data-view="shop">Explore Products</a>
+          <a href="tel:+9779804395917" class="btn btn-outline">Call the Store</a>
+        </div>
+        <div class="hero-info">
+          <span>📍 Trimurti Chowk, Biratnagar, Koshi Province 56613, Nepal</span>
+          <span>📞 <a href="tel:+9779804395917">+977 9804395917</a></span>
+          <span>🕗 Listed closing time: 7:00 PM (full weekly hours unconfirmed)</span>
+        </div>
+  </div>
+      </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-head">
+          <p class="overline">Browse</p>
+          <h2>Shop by Category</h2>
+          <p class="muted">Suggested grocery categories for the store. Inventory availability has not been confirmed.</p>
+        </div>
+        <div class="grid grid-3 categories-grid" id="categories-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="featured">
+      <div class="container">
+        <div class="section-head">
+          <p class="overline">Featured</p>
+          <h2>Featured Everyday Essentials</h2>
+          <p class="muted">A small selection of grocery favourites. Demonstration data only.</p>
+          <span class="demo-note">Demonstration product data. Products and prices are placeholders and do not confirm inventory.</span>
+        </div>
+        <div class="grid grid-4" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head">
+          <p class="overline">Why Choose Us</p>
+          <h2>Local Help for Everyday Grocery Needs</h2>
+        </div>
+        <div class="grid grid-3">
+          <article class="info-card">
+            <h3>Everyday Convenience</h3>
+            <p>Help with everyday grocery essentials close to home, without complicated shopping experiences.</p>
+          </article>
+          <article class="info-card">
+            <h3>Local Store Location</h3>
+            <p>Based at Trimurti Chowk, Biratnagar, Koshi Province 56613, Nepal.</p>
+          </article>
+          <article class="info-card">
+            <h3>Easy Phone Enquiries</h3>
+            <p>Call the store directly to ask about product availability and prices.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="store-info">
+      <div class="container">
+        <div class="store-grid">
+          <div class="panel">
+            <p class="overline">Store Information</p>
+            <h3>Anugraha General Store</h3>
+            <ul class="detail-list">
+              <li><span class="dot">📍</span><span>Trimurti Chowk, Biratnagar, Koshi Province 56613, Nepal</span></li>
+              <li><span class="dot">📞</span><span><a href="tel:+9779804395917">+977 9804395917</a></span></li>
+              <li><span class="dot">⭐</span><span>Google rating: 4.3/5 from 3 reviews</span></li>
+              <li><span class="dot">🕗</span><span>Listed closing time: 7:00 PM. Full weekly opening hours are unconfirmed.</span></li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3>Contact and Directions</h3>
+            <p>Use the Google Maps directions link for confirmed address details. Orders are placed by phone.</p>
+            <p><a href="https://www.google.com/maps/search/?api=1&query=Trimurti%20Chowk%2C%20Biratnagar%2C%20Koshi%20Province%2056613%2C%20Nepal" target="_blank" rel="noopener">Get directions on Google Maps</a></p>
+            <a href="tel:+9779804395917" class="btn btn-phone btn-block">Call to Order</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="final-cta">
+      <div class="container">
+        <div class="cta-band">
+          <h2>Need Your Daily Essentials?</h2>
+          <p>Browse the Anugraha General Store catalogue and call the store to confirm availability and prices before visiting or ordering.</p>
+          <div class="hero-actions">
+            <a href="#" class="btn btn-gold" data-view="shop">Browse Products</a>
+            <a href="tel:+9779804395917" class="btn btn-outline">Call to Order</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <p class="overline">Inside Our Store</p>
+          <h2>Inside Our Store</h2>
+          <p class="muted">Real-store photographs will be displayed here. Placeholders are shown until owner-provided images are available.</p>
+        </div>
+        <div class="grid grid-3 gallery-grid" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <section class="section view" id="shop-view" aria-labelledby="shop-heading">
+      <div class="container">
+        <div class="page-head">
+          <p class="overline">Catalogue</p>
+          <h1 id="shop-heading">Shop Anugraha General Store</h1>
+          <p>Browse the demonstration product catalogue. Product availability and prices must be confirmed by phone.</p>
+        </div>
+        <div class="shop-toolbar">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="search" id="product-search" placeholder="Search products..." aria-label="Search products">
+          </div>
+          <select id="product-sort" aria-label="Sort products">
+            <option value="name-asc">Name: A to Z</option>
+            <option value="name-desc">Name: Z to A</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+          </select>
+        </div>
+        <div class="chips" id="category-chips"></div>
+        <div class="grid grid-4 product-grid" id="product-grid"></div>
+      </div>
+    </section>
+
+    <section class="section view" id="about-view" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="page-head">
+          <p class="overline">About</p>
+          <h1 id="about-heading">About Anugraha General Store</h1>
+          <p>Introduces the store using confirmed information and available photographs. Space can be added for the shop story later.</p>
+        </div>
+        <div class="panel">
+          <h3>Store Snapshot</h3>
+          <ul class="detail-list">
+            <li><span class="dot">📍</span><span>Trimurti Chowk, Biratnagar, Koshi Province 56613, Nepal</span></li>
+            <li><span class="dot">📞</span><span><a href="tel:+9779804395917">+977 9804395917</a></span></li>
+            <li><span class="dot">⭐</span><span>Google rating: 4.3/5 from 3 reviews</span></li>
+            <li><span class="dot">🕗</span><span>Listed closing time: 7:00 PM. Full weekly hours are unconfirmed.</span></li>
+          </ul>
+        </div>
+        <div class="panel" style="margin-top:20px;">
+          <h3>Photographs</h3>
+          <p class="muted">Actual store photographs will appear here.</p>
+          <div class="grid grid-3" style="margin-top:16px;">
+            <div class="gallery-item" style="background: linear-gradient(135deg, #1b4d3a, #2e7d5b); min-height:140px;"><span class="g-emoji">🏪</span><h3>Store Interior</h3><p>Photo placeholder</p></div>
+            <div class="gallery-item" style="background: linear-gradient(135deg, #14342a, #256b4f); min-height:140px;"><span class="g-emoji">🥬</span><h3>Fresh Produce</h3><p>Photo placeholder</p></div>
+            <div class="gallery-item" style="background: linear-gradient(135deg, #0f2f24, #2e7d5b); min-height:140px;"><span class="g-emoji">🧺</span><h3>Store Shelves</h3><p>Photo placeholder</p></div>
+          </div>
+        </div>
+      </div>
+                                     </section>
+                                                              <section class="section view" id="contact-view" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="page-head">
+          <p class="overline">Contact</p>
+          <h1 id="contact-heading">Contact Anugraha General Store</h1>
+          <p>Use these confirmed details for enquiries and directions.</p>
+        </div>
+        <div class="store-grid">
+          <div class="panel">
+            <h3>Store Details</h3>
+            <ul class="detail-list">
+              <li><span class="dot">📍</span><span>Trimurti Chowk, Biratnagar, Koshi Province 56613, Nepal</span></li>
+              <li><span class="dot">📞</span><span><a href="tel:+9779804395917">+977 9804395917</a></span></li>
+              <li><span class="dot">⭐</span><span>Google rating: 4.3/5 from 3 reviews</span></li>
+              <li><span class="dot">🕗</span><span>Listed closing time: 7:00 PM. Full weekly opening hours are unconfirmed.</span></li>
+            </ul>
+            <div style="margin-top:20px;">
+              <a href="tel:+9779804395917" class="btn btn-phone btn-block">Call to Enquire</a>
+            </div>
+          </div>
+          <div class="panel">
+            <h3>Opening Hours</h3>
+            <table class="hours-table">
+              <tbody>
+                <tr><td>Monday</td><td>Closed</td></tr>
+                <tr><td>Tuesday</td><td>Closed</td></tr>
+                <tr><td>Wednesday</td><td>Closed</td></tr>
+                <tr><td>Thursday</td><td>Closed</td></tr>
+                <tr><td>Friday</td><td>Closed</td></tr>
+                <tr><td>Saturday</td><td>7:00 PM (listed)</td></tr>
+                <tr><td>Sunday</td><td>Closed</td></tr>
+              </tbody>
+            </table>
+            <p class="muted" style="margin-top:12px;">Full weekly opening hours require confirmation.</p>
+          </div>
+        </div>
+        <div class="panel" style="margin-top:20px;">
+          <h3>Directions</h3>
+          <p>Confirmed address: Trimurti Chowk, Biratnagar, Koshi Province 56613, Nepal.</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Trimurti%20Chowk%2C%20Biratnagar%2C%20Koshi%20Province%2056613%2C%20Nepal" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+      </div>
+    </section>
+                  </main>                                                                                             
+
+    <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Anugraha General Store</h4>
+          <p>Trimurti Chowk, Biratnagar, Koshi Province 56613, Nepal</p>
+          <p><a href="tel:+9779804395917">+977 9804395917</a></p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="#" data-view="home">Home</a>
+          <a href="#" data-view="shop">Shop</a>
+          <a href="#" data-view="about">About</a>
+          <a href="#" data-view="contact">Contact</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Trimurti Chowk, Biratnagar, Nepal</p>
+          <p><a href="tel:+9779804395917">+977 9804395917</a></p>
+          <p>Listed closing time: 7:00 PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Anugraha General Store. All rights reserved.</span>
+        <span>Demonstration website content. Orders must be placed by phone.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="cart-drawer" aria-label="Shopping cart">
+    <div class="drawer-header">
+      <h3 style="margin:0;">Shopping Cart</h3>
+      <button class="icon-btn" id="cart-close" type="button" aria-label="Close cart">✕</button>
+    </div>
+    <div class="drawer-body" id="cart-body"></div>
+    <div class="drawer-footer">
+      <div class="subtotal-row">
+        <span>Subtotal</span>
+        <span id="cart-subtotal">NPR 0</span>
+      </div>
+      <p class="muted" style="font-size:12px;">Demonstration cart only. Orders must be placed by phone at +977 9804395917.</p>
+      <a href="tel:+9779804395917" class="btn btn-phone btn-block">Call to Order</a>
+    </div>
+  </aside>
+
+  <div class="modal-card" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" id="modal-close" type="button" aria-label="Close product details">✕</button>
+    <div class="modal-grid">
+      <div class="modal-media" id="modal-media"></div>
+      <div class="modal-body">
+        <h3 id="modal-title"></h3>
+        <p class="product-meta" id="modal-meta"></p>
+        <p id="modal-details"></p>
+        <p><span class="badge-demo">Demo</span> <span class="availability" id="modal-availability"></span></p>
+        <p class="product-price" id="modal-price"></p>
+        <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:16px 0;">
+          <span class="qty-large">
+            <button id="modal-qty-minus" type="button" aria-label="Decrease quantity">−</button>
+            <span id="modal-qty">1</span>
+            <button id="modal-qty-plus" type="button" aria-label="Increase quantity">+</button>
+          </span>
+          <button class="btn btn-primary" id="modal-add" type="button">Add to Cart</button>
+        </div>
+        <a href="tel:+9779804395917" class="btn btn-phone btn-block">Call to Order</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const categories = [
+      { id: 'cat1', name: 'Rice and Grains', emoji: '🍚', blurb: 'Rice, grains and staples', tint: 'cat-1' },
+      { id: 'cat2', name: 'Pulses', emoji: '🫘', blurb: 'Lentils, beans and pulses', tint: 'cat-2' },
+      { id: 'cat3', name: 'Cooking Oil and Spices', emoji: '🫒', blurb: 'Oils, spices and seasonings', tint: 'cat-3' },
+      { id: 'cat4', name: 'Snacks and Biscuits', emoji: '🍪', blurb: 'Snacks and biscuits', tint: 'cat-4' },
+      { id: 'cat5', name: 'Tea and Beverages', emoji: '🍵', blurb: 'Tea and beverages', tint: 'cat-5' },
+      { id: 'cat6', name: 'Dairy and Refrigerated Items', emoji: '🥛', blurb: 'Milk, dairy and refrigerated', tint: 'cat-6' },
+      { id: 'cat7', name: 'Packaged Foods', emoji: '🍜', blurb: 'Packaged foods and noodles', tint: 'cat-7' },
+      { id: 'cat8', name: 'Personal Care', emoji: '🧼', blurb: 'Personal care essentials', tint: 'cat-8' },
+      { id: 'cat9', name: 'Household Essentials', emoji: '🧻', blurb: 'Household essentials', tint: 'cat-9' },
+      { id: 'cat10', name: 'Other Daily Necessities', emoji: '🧴', blurb: 'Other daily necessities', tint: 'cat-10' }
+    ];
+
+    const products = [
+      { id: 'p1', name: 'Rice (Demo)', category: 'Rice and Grains', size: '5 kg', price: 1200, unit: 'NPR', details: 'Staple grain placeholder from demonstration data.', availability: 'Demo only', emoji: '🍚', tint: '#e8f0e4' },
+      { id: 'p2', name: 'Lentils (Demo)', category: 'Pulses', size: '1 kg', price: 180, unit: 'NPR', details: 'Pulse placeholder from demonstration data.', availability: 'Demo only', emoji: '🫘', tint: '#f7ecd8' },
+      { id: 'p3', name: 'Cooking Oil (Demo)', category: 'Cooking Oil and Spices', size: '2 L', price: 350, unit: 'NPR', details: 'Oil placeholder from demonstration data.', availability: 'Demo only', emoji: '🫒', tint: '#f3e2d8' },
+      { id: 'p4', name: 'Biscuits (Demo)', category: 'Snacks and Biscuits', size: '200 g', price: 90, unit: 'NPR', details: 'Snack placeholder from demonstration data.', availability: 'Demo only', emoji: '🍪', tint: '#f6ecd7' },
+      { id: 'p5', name: 'Tea (Demo)', category: 'Tea and Beverages', size: '250 g', price: 220, unit: 'NPR', details: 'Tea placeholder from demonstration data.', availability: 'Demo only', emoji: '🍵', tint: '#e6ece4' },
+      { id: 'p6', name: 'Milk (Demo)', category: 'Dairy and Refrigerated Items', size: '1 L', price: 110, unit: 'NPR', details: 'Dairy placeholder from demonstration data.', availability: 'Demo only', emoji: '🥛', tint: '#f2ece4' },
+      { id: 'p7', name: 'Noodles (Demo)', category: 'Packaged Foods', size: '5-pack', price: 140, unit: 'NPR', details: 'Packaged food placeholder from demonstration data.', availability: 'Demo only', emoji: '🍜', tint: '#ece4ee' },
+      { id: 'p8', name: 'Soap (Demo)', category: 'Personal Care', size: '100 g', price: 75, unit: 'NPR', details: 'Personal care placeholder from demonstration data.', availability: 'Demo only', emoji: '🧼', tint: '#e4efe9' }
+    ];
+
+    const state = {
+      cart: [],
+      selectedProduct: null,
+      selectedQty: 1
+    };
+
+    const formatNPR = n => 'NPR ' + n.toLocaleString('en-NP');
+
+    const views = ['home', 'shop', 'categories', 'about', 'contact'];
+    function setView(view) {
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      const target = document.getElementById(view + '-view');
+      if (target) target.classList.add('active');
+      document.querySelectorAll('[data-view]').forEach(a => {
+        const key = a.getAttribute('data-view');
+        if (key === view) a.classList.add('active');
+        else a.classList.remove('active');
+      });
+      if (view === 'shop') {
+        const search = document.getElementById('product-search');
+        if (search) search.value = '';
+        renderCategories();
+        renderProducts();
+      }
+      if (view === 'categories') {
+        setTimeout(() => {
+          const el = document.getElementById('categories');
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }, 80);
+      }
+      if (view === 'home') {
+        setTimeout(() => {
+          const el = document.getElementById('home-view');
+          if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }, 80);
+      }
+    }
+
+    function renderCategories() {
+      const grid = document.getElementById('categories-grid');
+      if (!grid) return;
+      grid.innerHTML = categories.map(c => `
+        <button class="category-card ${c.tint}" type="button" data-category="${c.name}">
+          <span class="cat-emoji" aria-hidden="true">${c.emoji}</span>
+          <h3>${c.name}</h3>
+          <p>${c.blurb}</p>
+        </button>
+      `).join('');
+      grid.querySelectorAll('.category-card').forEach(btn => {
+        btn.addEventListener('click', () => {
+          setView('shop');
+          const cat = btn.getAttribute('data-category');
+          const chip = document.querySelector('.chip[data-category="' + CSS.escape(cat) + '"]');
+          if (chip) chip.click();
+        });
+      });
+    }
+
+    function getFilteredProducts() {
+      const search = (document.getElementById('product-search')?.value || '').trim().toLowerCase();
+      const activeChip = document.querySelector('.chip.active');
+      const category = activeChip ? activeChip.getAttribute('data-category') : 'All';
+      let list = products.filter(p => category === 'All' || p.category === category);
+      if (search) list = list.filter(p => (p.name + ' ' + p.category + ' ' + p.size + ' ' + p.details).toLowerCase().includes(search));
+      const sort = document.getElementById('product-sort')?.value || 'name-asc';
+      const sorted = [...list];
+      if (sort === 'name-asc') sorted.sort((a,b) => a.name.localeCompare(b.name));
+      if (sort === 'name-desc') sorted.sort((a,b) => b.name.localeCompare(a.name));
+      if (sort === 'price-asc') sorted.sort((a,b) => a.price - b.price);
+      if (sort === 'price-desc') sorted.sort((a,b) => b.price - a.price);
+      return sorted;
+    }
+
+    function renderProducts() {
+      const grid = document.getElementById('product-grid');
+      if (!grid) return;
+      const list = getFilteredProducts();
+      if (!list.length) {
+        grid.innerHTML = '<p class="muted">No demonstration products match your search.</p>';
+        return;
+      }
+      grid.innerHTML = list.map(p => `
+        <article class="product-card">
+          <div class="product-media" style="background:${p.tint};">${p.emoji}</div>
+          <div class="product-body">
+            <h3 class="product-name">${p.name}</h3>
+            <div class="product-meta">${p.category} · ${p.size}</div>
+            <div class="product-price">${formatNPR(p.price)} <small>(${p.unit})</small></div>
+            <span class="badge-demo">Demo</span> <span class="availability">${p.availability}</span>
+            <div class="product-actions">
+              <button class="btn btn-ghost" style="padding:10px 14px;font-size:13px;" data-action="details" data-id="${p.id}">Details</button>
+              <button class="btn btn-primary" style="padding:10px 14px;font-size:13px;" data-action="add" data-id="${p.id}">Add to Cart</button>
+            </div>
+          </div>
+        </article>
+           `).join('');
+      grid.querySelectorAll('[data-action]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-id');
+          const p = products.find(x => x.id === id);
+          if (!p) return;
+          if (btn.getAttribute('data-action') === 'details') openProduct(p);
+          if (btn.getAttribute('data-action') === 'add') addToCart(p, state.selectedQty || 1);
+        });
+      });
+    }
+
+    function renderCart() {
+      const body = document.getElementById('cart-body');
+      const subtotal = document.getElementById('cart-subtotal');
+      const count = document.getElementById('cart-count');
+      if (!body || !subtotal || !count) return;
+      count.textContent = state.cart.reduce((s,x) => s + x.qty, 0);
+      if (!state.cart.length) {
+        body.innerHTML = '<p class="muted">Your demonstration cart is empty. Add products to browse.</p>';
+        subtotal.textContent = formatNPR(0);
+        return;
+      }
+      body.innerHTML = state.cart.map(ci => `
+        <div class="cart-item">
+          <div class="ci-media">${ci.product.emoji}</div>
+          <div>
+            <h4>${ci.product.name}</h4>
+            <div class="ci-meta">${ci.product.size} · ${formatNPR(ci.product.price)}</div>
+            <div style="display:flex; align-items:center; gap:10px; margin-top:8px; flex-wrap:wrap;">
+              <span class="qty">
+                <button type="button" data-action="qty" data-id="${ci.product.id}" data-dir="minus">−</button>
+                <span>${ci.qty}</span>
+                <button type="button" data-action="qty" data-id="${ci.product.id}" data-dir="plus">+</button>
+              </span>
+              <button class="cart-remove" type="button" data-action="remove" data-id="${ci.product.id}">Remove</button>
+            </div>
+          </div>
+          <div style="font-weight:800; color:var(--green-800);">${formatNPR(ci.product.price * ci.qty)}</div>
+        </div>
+      `).join('');
+      subtotal.textContent = formatNPR(state.cart.reduce((s,x) => s + (x.product.price * x.qty), 0));
+      body.querySelectorAll('[data-action]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const id = btn.getAttribute('data-id');
+          const dir = btn.getAttribute('data-dir');
+          const prod = products.find(p => p.id === id);
+          if (!prod) return;
+          if (dir === 'plus') {
+            const existing = state.cart.find(x => x.product.id === id);
+            if (existing) existing.qty++;
+            else state.cart.push({ product: prod, qty: 1 });
+          } else if (dir === 'minus') {
+            const existing = state.cart.find(x => x.product.id === id);
+            if (existing) {
+              existing.qty--;
+              if (existing.qty <= 0) state.cart = state.cart.filter(x => x.product.id !== id);
+            }
+          }
+          if (btn.getAttribute('data-action') === 'remove') {
+            state.cart = state.cart.filter(x => x.product.id !== id);
+          }
+          renderCart();
+          });
+      });
+    }
+
+    function addToCart(p, qty = 1) {
+      const existing = state.cart.find(x => x.product.id === p.id);
+      if (existing) existing.qty += qty;
+      else state.cart.push({ product: p, qty });
+      renderCart();
+    }
+
+    function openProduct(p) {
+      state.selectedProduct = p;
+      state.selectedQty = 1;
+      document.getElementById('modal-title').textContent = p.name;
+      document.getElementById('modal-media').style.background = p.tint;
+      document.getElementById('modal-media').innerHTML = p.emoji;
+      document.getElementById('modal-meta').textContent = `${p.category} · ${p.size}`;
+      document.getElementById('modal-details').textContent = p.details;
+      document.getElementById('modal-availability').textContent = p.availability;
+      document.getElementById('modal-price').innerHTML = formatNPR(p.price) + ' <small>' + p.unit + '</small>';
+      document.getElementById('modal-qty').textContent = state.selectedQty;
+      document.getElementById('product-modal').classList.add('open');
+      document.getElementById('overlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeProduct() {
+      document.getElementById('product-modal').classList.remove('open');
+      document.getElementById('overlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeCart() {
+      document.getElementById('cart-drawer').classList.remove('open');
+      document.getElementById('overlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function escapeAttr(s) { return s.replace(/"/g, '&quot;'); }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('year').textContent = new Date().getFullYear();
+      renderCategories();
+      renderProducts();
+      renderCart();
+
+      const searchButton = document.getElementById('search-button');
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileNav = document.getElementById('mobile-nav');
+      const cartButton = document.getElementById('cart-button');
+      const cartClose = document.getElementById('cart-close');
+      const cartDrawer = document.getElementById('cart-drawer');
+      const overlay = document.getElementById('overlay');
+      const modalClose = document.getElementById('modal-close');
+      const modal = document.getElementById('product-modal');
+      const modalQtyPlus = document.getElementById('modal-qty-plus');
+      const modalQtyMinus = document.getElementById('modal-qty-minus');
+      const modalAdd = document.getElementById('modal-add');
+
+      document.querySelectorAll('[data-view]').forEach(a => {
+        a.addEventListener('click', e => {
+          e.preventDefault();
+          const view = a.getAttribute('data-view');
+          setView(view);
+          if (view === 'shop') {
+            const search = document.getElementById('product-search');
+            if (search) search.focus();
+          }
+        });
+      });
+
+      if (searchButton) searchButton.addEventListener('click', () => setView('shop'));
+      if (mobileMenuButton) mobileMenuButton.addEventListener('click', () => mobileNav.classList.toggle('open'));
+      if (cartButton) cartButton.addEventListener('click', () => cartDrawer.classList.add('open'));
+      if (cartClose) cartClose.addEventListener('click', () => closeCart());
+      if (modalClose) modalClose.addEventListener('click', () => closeProduct());
+      if (overlay) overlay.addEventListener('click', () => { closeCart(); closeProduct(); });
+
+      if (modalQtyPlus) modalQtyPlus.addEventListener('click', () => { state.selectedQty++; document.getElementById('modal-qty').textContent = state.selectedQty; });
+      if (modalQtyMinus) modalQtyMinus.addEventListener('click', () => { if (state.selectedQty > 1) { state.selectedQty--; document.getElementById('modal-qty').textContent = state.selectedQty; } });
+      if (modalAdd && state.selectedProduct) modalAdd.addEventListener('click', () => { addToCart(state.selectedProduct, state.selectedQty); closeProduct(); });
+
+      document.getElementById('product-search').addEventListener('input', renderProducts);
+      document.getElementById('product-sort').addEventListener('change', renderProducts);
+      document.getElementById('category-chips').addEventListener('click', e => {
+        const chip = e.target.closest('.chip');
+        if (!chip) return;
+        document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        renderProducts();
+      });
+
+      document.getElementById('cart-count');
+      document.querySelectorAll('[data-action]').forEach(btn => {
+        // Delegated listeners are already attached where needed; this keeps future buttons simple.
+      });
+
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          closeCart();
+          closeProduct();
+        }
+      });
+      const style = document.createElement('style');
+      style.textContent = '.drawer{visibility:hidden}.drawer.open{visibility:visible}.modal-card{visibility:hidden}.modal-card.open{visibility:visible}';
+      document.head.appendChild(style);
+    });
+  </script>
+</body>
+</html>
+    
+        
+  
